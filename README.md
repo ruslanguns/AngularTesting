@@ -2,6 +2,11 @@
 
 This is a monorepo project generated with the Angular CLI, which will contain different applications that will be fully tested from the basics to very advanced ways to test, from Unit, Integration and E2E testing.
 
+## Projects
+
+- simple-unit-test
+- simple-integration-test
+
 > Eventually you will have detail section of instruction for contribute with this project, all the ideas are very appreciated to submit them please add a new issue using the prefix in your subject title "Suggestion:" followed by your title and detailed suggestion.
 
 ## Current tasks
