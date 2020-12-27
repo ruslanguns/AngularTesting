@@ -76,12 +76,10 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "projects/simple-unit-test/src/test.ts",
             "polyfills": "projects/simple-unit-test/src/polyfills.ts",
             "tsConfig": "projects/simple-unit-test/tsconfig.spec.json",
-            "karmaConfig": "projects/simple-unit-test/karma.conf.js",
             "assets": [
               "projects/simple-unit-test/src/favicon.ico",
               "projects/simple-unit-test/src/assets"
@@ -188,12 +186,10 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "projects/simple-integration-test/src/test.ts",
             "polyfills": "projects/simple-integration-test/src/polyfills.ts",
             "tsConfig": "projects/simple-integration-test/tsconfig.spec.json",
-            "karmaConfig": "projects/simple-integration-test/karma.conf.js",
             "assets": [
               "projects/simple-integration-test/src/favicon.ico",
               "projects/simple-integration-test/src/assets"
