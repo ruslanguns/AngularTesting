@@ -3,5 +3,118 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "simple-unit-test": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/simple-unit-test",
+      "sourceRoot": "projects/simple-unit-test/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/simple-unit-test",
+            "index": "projects/simple-unit-test/src/index.html",
+            "main": "projects/simple-unit-test/src/main.ts",
+            "polyfills": "projects/simple-unit-test/src/polyfills.ts",
+            "tsConfig": "projects/simple-unit-test/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "projects/simple-unit-test/src/favicon.ico",
+              "projects/simple-unit-test/src/assets"
+            ],
+            "styles": [
+              "projects/simple-unit-test/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/simple-unit-test/src/environments/environment.ts",
+                  "with": "projects/simple-unit-test/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "simple-unit-test:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "simple-unit-test:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "simple-unit-test:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/simple-unit-test/src/test.ts",
+            "polyfills": "projects/simple-unit-test/src/polyfills.ts",
+            "tsConfig": "projects/simple-unit-test/tsconfig.spec.json",
+            "karmaConfig": "projects/simple-unit-test/karma.conf.js",
+            "assets": [
+              "projects/simple-unit-test/src/favicon.ico",
+              "projects/simple-unit-test/src/assets"
+            ],
+            "styles": [
+              "projects/simple-unit-test/src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/simple-unit-test/**/*.ts",
+              "projects/simple-unit-test/**/*.html"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/simple-unit-test/e2e/protractor.conf.js",
+            "devServerTarget": "simple-unit-test:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "simple-unit-test:serve:production"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "simple-unit-test"
 }
