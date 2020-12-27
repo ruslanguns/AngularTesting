@@ -7,7 +7,7 @@ This is a monorepo project generated with the Angular CLI, which will contain di
 ## Current tasks
 
 - ⬜ Add instructions for contribution
-- ⬜ Add License MIT
+- ✅ Add License MIT
 - ⬜ Add Github Actions for automated testings
 - ⬜ Add Github Templates for Issues and PR
 - ⬜ Add a new project with the hello world project
