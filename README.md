@@ -1,6 +1,16 @@
-# AngularTestingProject
+# Angular Testing Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+This is a monorepo project generated with the Angular CLI, which will contain different applications that will be fully tested from the basics to very advanced ways to test, from Unit, Integration and E2E testing.
+
+> Eventually you will have detail section of instruction for contribute with this project, all the ideas are very appreciated to submit them please add a new issue using the prefix in your subject title "Suggestion:" followed by your title and detailed suggestion.
+
+## Current tasks
+
+- ⬜ Add instructions for contribution
+- ⬜ Add License MIT
+- ⬜ Add Github Actions for automated testings
+- ⬜ Add Github Templates for Issues and PR
+- ⬜ Add a new project with the hello world project
 
 ## Development server
 
@@ -22,6 +32,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Author
+- Ruslan Gonzalez
+- Twitter: [@ruslangonzalez](https://twitter.com/ruslangonzalez)
