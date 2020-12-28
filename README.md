@@ -15,7 +15,7 @@ This is a monorepo project generated with the Angular CLI, which will contain di
 - ✅ Add License MIT
 - ✅ Add a new project with the hello world project
 - ✅ Add Jest as default testing service
-- ⬜ Add Github Actions for automated testings
+- ✅ Add Github Actions for automated testings
 - ⬜ Add Github Templates for Issues and PR
 
 ## Development server
