@@ -2,6 +2,8 @@
 
 Any and all contributions are welcome! This is a decently sized project with a good scoped of functionality.
 
+Organization is key for this project to have a logical order or projects, so before creating an application ask me to prepare the branch with the specific project so that you can work on it. Besides this project has a peculiar integration with Jest and EsLint and requires an additional manual configuration, feel free to contact me through a DM at @ruslanguns on Telegram or @ruslangonzalez on Twitter.
+
 ## How to Contribute
 
 1. Create a fork of the repository
@@ -14,11 +16,9 @@ Any and all contributions are welcome! This is a decently sized project with a g
 
 ## Development
 
-We are using Angular CLI and NestJS CLI for this project, one for the front-end and other for the back-end, it is _suggested_ to use [yarn](https://classic.yarnpkg.com/en/docs/getting-started) as we will keep the integrity with the dependencies.
+We are using Angular CLI for this project, one for the front-end, it is _suggested_ to use [yarn](https://classic.yarnpkg.com/en/docs/getting-started) as we will keep the integrity with the dependencies.
 
 To start with this project on development please make sure you install all dependencies with `yarn`.
-
-To start the back-end or front-end please make sure you get inside each directories and run `yarn start`
 
 ## Commits
 
