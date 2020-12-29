@@ -50,6 +50,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## License
+
+The content of this project is provided under the [MIT license](LICENSE)
+
 ## Author
 - Ruslan Gonzalez
 - Twitter: [@ruslangonzalez](https://twitter.com/ruslangonzalez)
