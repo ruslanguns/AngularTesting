@@ -2,6 +2,18 @@
 
 This is a monorepo project generated with the Angular CLI, which will contain different applications that will be fully tested from the basics to very advanced ways to test, from Unit, Integration and E2E testing.
 
+## Inspiration
+
+There are so many scenarios to test that it is impossible for us to try to remember how a certain test was performed on a component, or how something was integrated, sometimes, we have to search among many projects how it was that I did it on a certain occasion, it's definitely hard for us to remember, so, if you have seen yourself more than once with this problem, then this repository is for you.
+
+The idea of ​​this repository is to be able to have an organized collection of the tests towards an Angular project. From unit tests to a specific method or advanced tests against complex forms and behaviors in our customizations in Angular.
+
+The intention is to create a repository for each possible exercise, it is also to test that certain functionalities such as state management, websockets, interceptors, guards, etc., work as we are expecting.
+
+Use this repository as a glossary or a repository to learn how to test your Angular applications like a pro.
+
+The initiative is for you to be part of this project by adding your own tests and examples that you deal with on a day-to-day basis, I am sure that you will help another who may be in the same doubt, so I encourage you to submit your PRs and make a community together.
+
 ## Projects
 
 - simple-unit-test
