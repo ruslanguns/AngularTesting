@@ -3,7 +3,7 @@
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![dependencies Status](https://status.david-dm.org/gh/ruslanguns/angular-testing-project.svg)](https://david-dm.org/ruslanguns/angular-testing-project)
-[![Donate](https://img.shields.io/badge/donate-12a0df.svg?style=flat)](https://paypal.me/ruslangonzalez) 
+<a href="https://liberapay.com/ruslangonzalez/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
 This is a monorepo project generated with the Angular CLI, which will contain different applications that will be fully tested from the basics to very advanced ways to test, from Unit, Integration and E2E testing.
 
