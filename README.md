@@ -21,6 +21,10 @@ The initiative is for you to be part of this project by adding your own tests an
 
 > Eventually you will have detail section of instruction for contribute with this project, all the ideas are very appreciated to submit them please add a new issue using the prefix in your subject title "Suggestion:" followed by your title and detailed suggestion.
 
+## Contribution
+
+I strongly invite you to read the [CONTRIBUTING.md](CONTRIBUTING.md) file before sending a PR, feel free to send your questions via an issue using the prefix "QUESTION:" or to DM me directly.
+
 ## Current tasks
 
 - ✅ Add instructions for contribution
