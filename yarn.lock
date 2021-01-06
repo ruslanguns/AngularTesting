@@ -1221,7 +1221,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@briebug/jest-schematic@^3.1.0":
+"@briebug/jest-schematic@3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@briebug/jest-schematic/-/jest-schematic-3.1.0.tgz#06bd0d8d339d9acaefb243859ab358af31589dad"
   integrity sha512-ys/CggnFmspfmcf2SG0b4zYDjNzBs1/YhU0S5NA2YGmEE8onFNXw6aC5bVs63I0ZgHgvyvkhlOEr81XXvuzIiA==
